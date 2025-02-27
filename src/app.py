@@ -118,5 +118,5 @@ Beneficios_2024 = df['revenue'].loc[0]
 Último_año = df['año'].loc[0]
 Beneficios_2024 = int(Beneficios_2024 * 1_000_000 * 1_000_000)
 
-beneficios_finales = f"Tesla ha ganado ${Beneficios_2024:,.2f} de dólares en el año {Último_año} ."
+beneficios_finales = f"Tesla ha ganado {Beneficios_2024:,.2f} de dólares en el año {Último_año} ."
 print(beneficios_finales)
